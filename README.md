@@ -12,3 +12,7 @@ Close enough is good enough.
 
 # Why
 Wanted to create an old school game engine, Think Mode13. I was experimenting with reducing Hi-Def textures to Lo-Def 8 bit indexed textures. Median Cut and Octree couldn't quite make the perfomance targets on my potato no matter how much I tried optimizing/over optimizing for a 320x200x32Bit input, so I knuckled down and came up with this.  Not perfect but closer and figured others could improve or it could be a benifit to somebody somewhere so released it seperatly.
+
+# AI
+Added claude.ai's take on it.  OMG for once it didn't break things but made it work fast.  Quality took a hit but feild FastQuantizationDepth can be altered and I reckon I can work on it.
+I can actually say well done AI for once.
