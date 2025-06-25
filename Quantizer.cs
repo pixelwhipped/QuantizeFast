@@ -4,9 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
-namespace ScratchPad
+namespace Quantization
 {
-    public static class Quantizer
+    public static partial class Quantizer
     {
         public static int FastQuantizationDepth = 32; //How far to traverse sorted pallet
         public struct RGBA8 //Could just be RGB but kept the Alpha for 32bit 
