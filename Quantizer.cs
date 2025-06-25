@@ -1,4 +1,4 @@
-// I (Ben Tarrant) had some free time so made a color quantizer that out-perfomed Median Cut and Octree, Both optimized best I could.
+// I (Ben Tarrant) had some free time so made a color quantizer that out-perfomed Median Cut and Octree(speed), Both optimized best I could.
 // Yes I am aware it should be pallete, Bad habits.
 using System;
 using System.Collections.Generic;
