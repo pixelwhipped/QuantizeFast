@@ -9,3 +9,6 @@ Iterate back to front until the desired color count is met be finding the next c
 remove the nearest color and continue iterating. 
 I dont update the distance from center as repeating the loop though all indexes should not happen too often, and because earlier colors in the list are the usually nearest that get removed the order should stay relitivly close.
 Close enough is good enough.
+
+# Why
+Wanted to create an old school game engine but was experimenting with reducing HiDef textures to LoDef 8 bit indexed textures. Median Cut and Octree couldn't quite make the perfomance targets on my potato no matter how much I tried optimizing/over optimizing for a 320x200x32Bit input so I knuckled down and came up with this.  Not perfect but closer and figured others could improve or it could be a benifit to somebody somewhere so released it seperatly.
