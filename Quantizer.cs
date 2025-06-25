@@ -1,3 +1,5 @@
+// I (Ben Tarrant) had some free time so made a color quantizer that out-perfomed Median Cut and Octree, Both optimized best I could.
+// Yes I am aware it should be pallete, Bad habits.
 using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
@@ -7,7 +9,7 @@ namespace ScratchPad
     public static class Quantizer
     {
         public static int FastQuantizationDepth = 32; //How far to traverse sorted pallet
-        public struct RGBA8 //Voyuld just be RGB but kept the Alpha for 32bit 
+        public struct RGBA8 //Could just be RGB but kept the Alpha for 32bit 
         {
             public byte A;
             public byte R;
