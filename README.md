@@ -1,4 +1,7 @@
 # Color Quantization
+[![Last commit](https://img.shields.io/github/last-commit/pixelwhipped/QuantizeFast)](https://github.com/pixelwhipped/QuantizeFast/commits/main)
+![GitHub Sponsor](https://img.shields.io/github/sponsors/pixelwhipped?label=Sponsor&logo=GitHub)
+[![patreon.com/pixelwhipped](https://img.shields.io/badge/patreon-grey?logo=patreon)](https://www.patreon.com/15682673/join)  
 Color quantization is the process of reducing number of colors used in an image while trying to maintain the visual appearance of the original image.
 
 # The Algorithm
